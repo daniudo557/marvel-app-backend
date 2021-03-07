@@ -26,7 +26,7 @@ module.exports = (email, name, comics) => {
 
   const mail = {
     to: email,
-    from: 'contato@daniudo557.top',
+    from: 'Daniel Sampaio de Macedo <contato@daniudo557.top>',
     subject: 'Mensagem de Marvel-App',
     text: getText()
   }
