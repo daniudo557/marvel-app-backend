@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/daniudo557/marvel-app-backend/issues"
   },
-  "homepage": "https://github.com/daniudo557/marvel-app-backend#readme"
+  "homepage": "https://github.com/daniudo557/marvel-app-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.5.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
