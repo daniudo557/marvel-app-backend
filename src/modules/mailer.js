@@ -1,11 +1,10 @@
 const mailer = require('nodemailer')
-const { user, pass } = require('../config/mail')
+const { host, port, user, pass } = require('../config/mail')
 
 module.exports = (email, name, message) => {
   const smtpTransport = mailer.createTransport({
-    host: 'smtp.umbler.com',
-    port: 587,
-    secure: false, // SSL/TLS
+    host,
+    port,
     auth: { user, pass }
   })
 
